@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image:url(../images/imagenbackground2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Lobster', cursive;
+    overflow-x: hidden;
+  
+
+}
+
+                            /* HEADER */
+
+.barra-nav{
+    background-color: rgba(0, 0, 0, 0.9);
+    border-bottom: 2px dashed rgba(255, 255, 255, 0.905);
+}
+
+.barra-nav div a{
+    color: rgba(255, 255, 255, 0.905);
+}
+
+.icon-menu{
+    background-color: rgba(255, 255, 255, 0.905);
+}
+
+.desplegable{
+    background-color:rgba(0, 0, 0, 0.9) ;
+}
+
+                        /* SECCION INICIO */
+.main{
+    height: 59vh;
+}
+
+.row h1{
+    color:rgba(255, 255, 255, 0.905) ;
+    border: 2px dashed rgba(255, 255, 255, 0.905);
+    display: inline-block;
+}
+
+.agenda{
+    background-color: rgba(0, 0, 0, 0.9045);
+    height: 100vh;
+}
+
+.boton{
+    background-color: rgb(39, 39, 167);
+    border: dashed rgba(255, 255, 255, 0.905) ;
+    border-radius: 200px;
+}
+
+                            /* ASIDE */
+.aside{
+    background-color:rgba(0, 0, 0, 0.9) ;
+    border: dashed rgba(255, 255, 255, 0.905) ;
+    width: 60px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+                            /* FOOTER */
+                        
+.footer{
+    background-color: rgba(0, 0, 0, 0.9);
+    border-top: dashed rgba(255, 255, 255, 0.905) ;
+    font-size: 10px;
+}
+
+h3{
+    font-size: 10px;
+}
