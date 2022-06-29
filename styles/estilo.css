@@ -69,7 +69,7 @@ body {
 }
 
                             /* ASIDE */
-.aside, .aside-servicios{
+.aside, .aside-servicios, .aside-agenda, .aside-diseños{
     background-color:rgba(0, 0, 0, 0.9) ;
     border: dashed rgba(255, 255, 255, 0.905) ;
     width: 60px;
@@ -79,11 +79,14 @@ body {
     justify-content: space-between;
     align-items: center;
     position:fixed; 
-    z-index: 4;  
+    z-index: 4;
+    transition: ease-in-out, 0.5s;
 }
 
-.img-aside{
-    padding:;
+aside ul li:hover{
+
+        width: 130%;
+       
 }
 
                             /* FOOTER */
@@ -141,6 +144,26 @@ h3{
     height: 100%;
     
     
+}
+
+.aside-desastres{
+    background-color: rgba(0, 0, 0, 0.9);
+        border: dashed rgba(255, 255, 255, 0.905);
+        width: 60px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        z-index: 4;
+        transition: ease-in-out, 0.5s;
+    
+}
+
+.aside-li:hover{
+
+    width: 130%;
 }
 
 .volver{
