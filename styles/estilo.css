@@ -55,7 +55,7 @@ body {
 }
 
                             /* ASIDE */
-.aside{
+.aside, .aside-servicios{
     background-color:rgba(0, 0, 0, 0.9) ;
     border: dashed rgba(255, 255, 255, 0.905) ;
     width: 60px;
@@ -265,7 +265,7 @@ h3{
 }
 
 .main-servicios{
-   
+
             background-color: rgba(0, 0, 0, 0.9045);
             height: 60%;
             margin-top: 2%;
@@ -274,10 +274,10 @@ h3{
             overflow-x: hidden;
 }
 
-aside{
+.aside-servicios{
     position: relative;
-    right: 4%;
-    top: 10%;
+    right: 30%;
+    top: 15%;
 
 }
 
@@ -285,8 +285,53 @@ aside{
     background-color:rgba(255, 255, 255, 0.905) ;
     transition:  ease-in-out 0.5s;
 }
+
+.listado{
+    position: relative;
+    right: 25%;
+}
     
                                     /* SECCION AGENDA WEB */
+
+.main-agenda{
+    background-color: rgba(0, 0, 0, 0.9045);
+        height: 60%;
+        margin-top: 2%;
+    
+        overflow-y: scroll;
+        overflow-x: hidden;
+
+}
+
+.aside-agenda{
+    position: relative;
+    right: 7%;
+}
+
+.article-calendario     {
+    position: relative;
+    right: 20%;
+}
+
+.article-boton{
+    width: fit-content;
+    position: relative;
+    left: 40%;
+    top: 2vh;
+  
+}
+
+.boton{
+    background-color: rgba(20, 20, 174, 0.674);
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.905) ;
+ 
+    
+}
+
+
+
+
                                     
 
 
