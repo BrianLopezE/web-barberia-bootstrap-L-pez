@@ -170,7 +170,7 @@ h3{
 
                             /* SECCION DISEÑOS */
 
-.main-diseños {
+.main-diseños{
     background-color: rgba(0, 0, 0, 0.9045);
     height: 60%;
     margin-top: 2%;
@@ -248,4 +248,46 @@ h3{
           .carrousel{
             border: 2px dashed white;
           }
+
+
+                                /* SECCION NUESTROS SERVICIOS */
+
+
+.listado{
+
+    background-image: url(../images/fondo-tabla.jpg);
+    background-size: auto;
+    border:2px dashed rgba(255, 255, 255, 0.905) ;
+    color:rgb(174, 95, 30);
+    width: 60vw;
+    height: 40vh;
+
+}
+
+.main-servicios{
+   
+            background-color: rgba(0, 0, 0, 0.9045);
+            height: 60%;
+            margin-top: 2%;
+    
+            overflow-y: scroll;
+            overflow-x: hidden;
+}
+
+aside{
+    position: relative;
+    right: 4%;
+    top: 10%;
+
+}
+
+.hover:hover{
+    background-color:rgba(255, 255, 255, 0.905) ;
+    transition:  ease-in-out 0.5s;
+}
+    
+                                    /* SECCION AGENDA WEB */
+                                    
+
+
 
