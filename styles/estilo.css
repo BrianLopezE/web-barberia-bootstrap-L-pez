@@ -54,6 +54,20 @@ body {
     border-radius: 200px;
 }
 
+@media only screen and (min-width:600px){
+
+    .agenda{
+        margin-right: 5%;
+    }
+}
+
+@media only screen and (min-width:600px) {
+
+    .agenda {
+        margin-right: 7%;
+    }
+}
+
                             /* ASIDE */
 .aside, .aside-servicios{
     background-color:rgba(0, 0, 0, 0.9) ;
@@ -74,13 +88,13 @@ body {
 
                             /* FOOTER */
                         
-.footer{
+.footer, .footer-diseños{
     background-color: rgba(0, 0, 0, 0.9);
     border-top: dashed rgba(255, 255, 255, 0.905) ;
     font-size: 10px;
     display: flex;
     align-self: end;
-    height: 20vh;
+    height: 28vh;
     position: relative;
     top: 5%;
 
@@ -95,7 +109,7 @@ h3{
  .main-sde{
     background-color: rgba(0, 0, 0, 0.9045);
     height: 50%;
-    margin-top: 8.5%;
+    margin-top: 4%;
 
     overflow-y: scroll;
     overflow-x: hidden;
@@ -249,6 +263,8 @@ h3{
             border: 2px dashed white;
           }
 
+   
+
 
                                 /* SECCION NUESTROS SERVICIOS */
 
@@ -297,6 +313,7 @@ h3{
     background-color: rgba(0, 0, 0, 0.9045);
         height: 60%;
         margin-top: 2%;
+        display: flex;
     
         overflow-y: scroll;
         overflow-x: hidden;
@@ -305,19 +322,40 @@ h3{
 
 .aside-agenda{
     position: relative;
-    right: 7%;
+    right: 9%;
 }
 
-.article-calendario     {
+.article-titulo h3{
+
+    color: rgba(255, 255, 255, 0.905) ;
+    font-size: 1.5rem;   
+}
+
+.article-titulo{
+    border: 2px dashed rgba(255, 255, 255, 0.905);
+    width:fit-content ;
     position: relative;
-    right: 20%;
+    right: 5%;
+
+
+}
+
+.article-calendario{
+    height:76%;
+
+    border: 2px dashed rgba(255, 255, 255, 0.905);
+
+    position: relative;
+    right: 10%;
+    top: 3%;
+
 }
 
 .article-boton{
     width: fit-content;
     position: relative;
     left: 40%;
-    top: 2vh;
+    top: 1.5vh;
   
 }
 
@@ -328,6 +366,40 @@ h3{
  
     
 }
+
+@media only screen and (min-width:600px){
+    
+    .article-titulo{
+       left: 7%;
+    }
+
+    .article-calendario {
+        
+        right: 15%;
+            
+    }
+}
+
+@media only screen and (min-width:800px) {
+
+    .article-titulo {
+        left: 10%;
+    }
+}
+
+@media only screen and (min-width:1000px) {
+
+    .article-titulo {
+        left: 12%;
+    }
+
+    .article-calendario {
+    
+        right: 20%;
+    
+    }
+}
+
 
 
 
