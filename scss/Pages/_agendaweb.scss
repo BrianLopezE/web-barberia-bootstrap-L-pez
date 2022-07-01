@@ -1,0 +1,98 @@
+                                    /* SECCION AGENDA WEB */
+
+.main-agenda{
+    background-color: rgba(0, 0, 0, 0.9045);
+        height: 60%;
+        margin-top: 2%;
+        display: flex;
+    
+        overflow-y: scroll;
+        overflow-x: hidden;
+
+}
+
+.aside-agenda{
+    position: relative;
+    right: 9%;
+}
+
+.article-titulo h3{
+
+    color: rgba(255, 255, 255, 0.905) ;
+    font-size: 1.5rem;   
+}
+
+.article-titulo{
+    border: 2px dashed rgba(255, 255, 255, 0.905);
+    width:fit-content ;
+    position: relative;
+    right: 5%;
+
+
+}
+
+.article-calendario{
+    height:76%;
+
+    border: 2px dashed rgba(255, 255, 255, 0.905);
+
+    position: relative;
+    right: 10%;
+    top: 3%;
+
+}
+
+.article-boton{
+    width: fit-content;
+    position: relative;
+    left: 40%;
+    top: 1.5vh;
+  
+}
+
+.boton{
+    background-color: rgba(20, 20, 174, 0.674);
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.905) ;
+ 
+    
+}
+
+@media only screen and (min-width:600px){
+    
+    .article-titulo{
+       left: 7%;
+    }
+
+    .article-calendario {
+        
+        right: 15%;
+            
+    }
+}
+
+@media only screen and (min-width:800px) {
+
+    .article-titulo {
+        left: 10%;
+    }
+}
+
+@media only screen and (min-width:1000px) {
+
+    .article-titulo {
+        left: 12%;
+    }
+
+    .article-calendario {
+    
+        right: 20%;
+    
+    }
+}
+
+
+
+
+
+                                    

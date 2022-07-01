@@ -1,0 +1,97 @@
+                        /* SECCiÓN Desastre's */
+
+ .main-sde{
+    background-color: rgba(0, 0, 0, 0.9045);
+    height: 50%;
+    margin-top: 4%;
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+ } 
+ 
+ .img-sde{
+   
+    width: 100%;
+    height: 20%;
+    margin-left: 18%;
+    margin-top: 10%;
+    object-fit: cover;
+   
+    
+ }
+
+ .p-db{
+    width: 100%;
+    height: 100px;
+    
+    margin-left: 18%;
+    margin-top: 10%;
+    overflow-y: scroll;
+    color:rgba(255, 255, 255, 0.905);
+
+ }
+ 
+.article-sde{
+    height: 100%;
+    
+    
+}
+
+.aside-desastres{
+    background-color: rgba(0, 0, 0, 0.9);
+        border: dashed rgba(255, 255, 255, 0.905);
+        width: 60px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        z-index: 4;
+        transition: ease-in-out, 0.5s;
+    
+}
+
+.aside-li:hover{
+
+    width: 130%;
+}
+
+.volver{
+    position: relative;
+    left: 40%;
+    bottom: 2vh;
+}
+
+@media only screen and (min-width:600px) {
+    .article-sde{
+        margin-right: 25px;
+    }
+
+        .volver {
+           
+            left: 45%;
+}
+}
+
+@media only screen and (min-width:750px) {
+    .article-sde {
+        margin-right: 35px;
+    }
+
+    .volver {
+
+        left: 45%;
+    }
+}
+
+@media only screen and (min-width:900px) {
+    .article-sde {
+        margin-right: 50px;
+    }
+
+    .volver {
+
+        left: 47%;
+    }
+}

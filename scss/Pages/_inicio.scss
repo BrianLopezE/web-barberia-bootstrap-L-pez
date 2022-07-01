@@ -1,0 +1,56 @@
+                       /* SECCION INICIO */
+.main{
+    height: 59vh;
+}
+
+.row h1{
+    color:rgba(255, 255, 255, 0.905) ;
+    border: 2px dashed rgba(255, 255, 255, 0.905);
+    display: inline-block;
+}
+
+.agenda{
+    background-color: rgba(0, 0, 0, 0.9045);
+    height: 100vh;
+}
+
+.boton{
+    background-color: rgb(39, 39, 167);
+    border: dashed rgba(255, 255, 255, 0.905) ;
+    border-radius: 200px;
+}
+
+@media only screen and (min-width:600px){
+
+    .agenda{
+        margin-right: 5%;
+    }
+}
+
+@media only screen and (min-width:600px) {
+
+    .agenda {
+        margin-right: 7%;
+    }
+}
+
+                            /* ASIDE */
+.aside, .aside-servicios, .aside-agenda, .aside-diseños{
+    background-color:rgba(0, 0, 0, 0.9) ;
+    border: dashed rgba(255, 255, 255, 0.905) ;
+    width: 60px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed; 
+    z-index: 4;
+    transition: ease-in-out, 0.5s;
+}
+
+aside ul li:hover{
+
+        width: 130%;
+       
+}
