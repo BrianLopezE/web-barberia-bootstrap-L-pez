@@ -52,32 +52,64 @@
             </div>
         </nav>
     </header>
-    <main class="container-fluid row justify-content-center gx-1  main-agenda">
-            <aside >
-                <ul class="list-unstyled aside">
-                    <li><a href="https://twitter.com/Desastre'sBarber" target="_blank"><img src="../images/twitter.png"
-                        alt="icono-twitter"></a></li>
-                    <li><a href="https://instagram.com/Desastre'sBarber" target="_blank"><img src="../images/instagram.png"
-                        alt="icono-instagram"></a></li>
-                    <li><a href="https://facebook.com/Desastre'sBarber" target="_blank"><img src="../images/facebook.png"
-                        alt="icono-facebook"></a></li>
-                   <li><a href="https://api.whatsapp.com/send?phone=+598xxxxxxxxx" target="_blank"><img
-                        src="../images/whatsapp.png" alt="icono-whatsapp"></a></li>
-                </ul>
-            </aside>
-        <section class="container col justify-content-center">
-            <article class="article-titulo order-3 mt-1">
+    <main class="container-fluid gx-1  main_agenda">
+        <aside>
+            <ul class="list-unstyled aside">
+                <li><a href="https://twitter.com/Desastre'sBarber" target="_blank"><img src="../images/twitter.png"
+                            alt="icono-twitter"></a></li>
+                <li><a href="https://instagram.com/Desastre'sBarber" target="_blank"><img src="../images/instagram.png"
+                            alt="icono-instagram"></a></li>
+                <li><a href="https://facebook.com/Desastre'sBarber" target="_blank"><img src="../images/facebook.png"
+                            alt="icono-facebook"></a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=+598xxxxxxxxx" target="_blank"><img
+                            src="../images/whatsapp.png" alt="icono-whatsapp"></a></li>
+            </ul>
+        </aside>
+        <section class="container row d-flex  justify-content-center ms-1 ms-sm-5 me-sm-4">
+            <article class="article_titulo col-12  mt-5">
                 <h3>Reserva tu lugar aquí!</h3>
             </article>
-            <article class="col-10 order-2 mt-1 article-calendario">
-                <iframe src="https://brianlopez.youcanbook.me/?noframe=true&skipHeaderFooter=true" id="ycbmiframebrianlopez"
-                    style="width:100%;max-height:100%;border:0px;background-color:transparent;" frameborder="0"
-                    allowtransparency="true"></iframe>
-                <script>window.addEventListener && window.addEventListener("message", function (event) { if (event.origin === "https://brianlopez.youcanbook.me") { document.getElementById("ycbmiframebrianlopez").style.height = event.data + "px"; } }, false);</script>
-                <script>window.addEventListener && window.addEventListener("message", function (event) { if (event.origin === "https://desastresbarber-barberia.youcanbook.me") { document.getElementById("ycbmiframedesastresbarber-barberia") } }, false);</script>
+            <article class="w-100 row mt-3 justify-content-center article_agenda">
+                <form class="row w-auto gx-3 gy-2 mt- align-items-center">
+                    <div class="col">
+                        <label class="visually-hidden" for="specificSizeInputName">Nombre</label>
+                        <input type="text" class="form-control" id="specificSizeInputName" placeholder="Jane Doe">
+                    </div>
+                    <div class="col-12 mt-2 horarios">
+                        <label class="visually-hidden" for="specificSizeSelect">Preferencia</label>
+                        <select class="form-select horarios" id="specificSizeSelect">
+                            <option selected>Horario</option>
+                            <option value="1">9:00</option>
+                            <option value="2">10:00</option>
+                            <option value="3">11:00</option>
+                            <option value="4">12:00</option>
+                            <option value="5">13:00</option>
+                            <option value="6">14:00</option>
+                            <option value="7">15:00</option>
+                            <option value="8">16:00</option>
+                            <option value="9">17:00</option>
+                            <option value="10">18:00</option>
+                            <option value="11">19:00</option>
+                            <option value="12">20:00</option>
+                            <option value="13">21:00</option>
+                            </div>
+                        </select>
+                    <div class="col mt-2">
+                        <label class="visually-hidden" for="specificSizeSelect">Preferencia</label>
+                        <select class="form-select " id="specificSizeSelect">
+                            <option selected>Servicio</option>
+                            <option value="1">Corte Simple</option>
+                            <option value="2">Corte Degrade</option>
+                            <option value="3">Tres</option>
+                        </select>
+                    </div>
+                    <div class="col mt-2 text-center ">
+                        <button type="submit" class="btn boton w-50 fs-5 ">Enviar</button>
+                    </div>
+                </form>
             </article>
-            <div class="mt-1 article-boton">
-                <a class="order-1 boton" href="../index.html">Volver al inicio</a>
+            <div class="row w-25 h-25 mt-3 text-center article_boton">
+                <a class="boton" href="../index.html">Volver al inicio</a>
             </div>
         </section>
     </main>

@@ -284,32 +284,36 @@ h3 {
 }
 
 /* SECCION AGENDA WEB */
-.main-agenda {
+.main_agenda {
   background-color: rgba(0, 0, 0, 0.9045);
-  height: 90%;
+  height: 60vh;
   margin-top: 2%;
   margin-bottom: 2%;
   overflow-y: scroll;
   overflow-x: hidden;
 }
 
-.article-titulo h3 {
+.article_titulo h3 {
   color: rgba(255, 255, 255, 0.905);
   font-size: 1.5rem;
 }
 
-.article-titulo {
+.article_titulo {
   border: 2px dashed rgba(255, 255, 255, 0.905);
   width: fit-content;
   height: fit-content;
+  align-self: center;
 }
 
-.article-calendario {
-  height: 76%;
-  border: 2px dashed rgba(255, 255, 255, 0.905);
+.article_agenda {
+  width: fit-content;
 }
 
-.article-boton {
+.horarios {
+  overflow-y: scroll;
+}
+
+.article_boton {
   width: fit-content;
 }
 
