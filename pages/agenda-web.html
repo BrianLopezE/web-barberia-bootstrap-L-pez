@@ -52,8 +52,8 @@
             </div>
         </nav>
     </header>
-    <main class="container-fluid row gx-1c md-5  main-agenda">
-            <aside class="container-fluid  h-50 mt-5 col-2 aside-agenda ">
+    <main class="container-fluid row justify-content-center gx-1  main-agenda">
+            <aside >
                 <ul class="list-unstyled aside">
                     <li><a href="https://twitter.com/Desastre'sBarber" target="_blank"><img src="../images/twitter.png"
                         alt="icono-twitter"></a></li>
@@ -65,20 +65,20 @@
                         src="../images/whatsapp.png" alt="icono-whatsapp"></a></li>
                 </ul>
             </aside>
-        <section class="col-8">
-            <article class="article-titulo mt-1">
+        <section class="container col justify-content-center">
+            <article class="article-titulo order-3 mt-1">
                 <h3>Reserva tu lugar aquí!</h3>
             </article>
-            <article class="article-calendario">
+            <article class="col-10 order-2 mt-1 article-calendario">
                 <iframe src="https://brianlopez.youcanbook.me/?noframe=true&skipHeaderFooter=true" id="ycbmiframebrianlopez"
-                    style="width:100%;max-height:45vh;border:0px;background-color:transparent;" frameborder="0"
+                    style="width:100%;max-height:100%;border:0px;background-color:transparent;" frameborder="0"
                     allowtransparency="true"></iframe>
                 <script>window.addEventListener && window.addEventListener("message", function (event) { if (event.origin === "https://brianlopez.youcanbook.me") { document.getElementById("ycbmiframebrianlopez").style.height = event.data + "px"; } }, false);</script>
                 <script>window.addEventListener && window.addEventListener("message", function (event) { if (event.origin === "https://desastresbarber-barberia.youcanbook.me") { document.getElementById("ycbmiframedesastresbarber-barberia") } }, false);</script>
-                <div class="article-boton">
-                    <a class="boton" href="../index.html">Volver al inicio</a>
-                </div>
             </article>
+            <div class="mt-1 article-boton">
+                <a class="order-1 boton" href="../index.html">Volver al inicio</a>
+            </div>
         </section>
     </main>
     <footer class="container-fluid gx-4 d-flex justify-content-between  fs-6 text-white footer">

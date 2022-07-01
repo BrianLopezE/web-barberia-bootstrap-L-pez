@@ -2,18 +2,14 @@
 
 .main-agenda{
     background-color: rgba(0, 0, 0, 0.9045);
-        height: 60%;
+        height: 90%;
         margin-top: 2%;
-        display: flex;
+        margin-bottom: 2%;
+    
     
         overflow-y: scroll;
         overflow-x: hidden;
 
-}
-
-.aside-agenda{
-    position: relative;
-    right: 9%;
 }
 
 .article-titulo h3{
@@ -25,10 +21,7 @@
 .article-titulo{
     border: 2px dashed rgba(255, 255, 255, 0.905);
     width:fit-content ;
-    position: relative;
-    right: 5%;
-
-
+    height: fit-content;
 }
 
 .article-calendario{
@@ -36,17 +29,12 @@
 
     border: 2px dashed rgba(255, 255, 255, 0.905);
 
-    position: relative;
-    right: 10%;
-    top: 3%;
-
+   
 }
 
 .article-boton{
     width: fit-content;
-    position: relative;
-    left: 40%;
-    top: 1.5vh;
+   
   
 }
 
@@ -58,38 +46,9 @@
     
 }
 
-@media only screen and (min-width:600px){
-    
-    .article-titulo{
-       left: 7%;
-    }
 
-    .article-calendario {
-        
-        right: 15%;
-            
-    }
-}
 
-@media only screen and (min-width:800px) {
 
-    .article-titulo {
-        left: 10%;
-    }
-}
-
-@media only screen and (min-width:1000px) {
-
-    .article-titulo {
-        left: 12%;
-    }
-
-    .article-calendario {
-    
-        right: 20%;
-    
-    }
-}
 
 
 

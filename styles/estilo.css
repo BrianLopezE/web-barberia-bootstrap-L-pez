@@ -1,432 +1,322 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Lobster", cursive;
 }
 
 body {
-    background-image:url(../images/imagenbackground2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    overflow: hidden;
+  background-image: url(../images/imagenbackground2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow-x: hidden;
 }
 
-                            /* HEADER */
-
-.barra-nav{
-    background-color: rgba(0, 0, 0, 0.9);
-    border-bottom: 2px dashed rgba(255, 255, 255, 0.905);
+/* HEADER */
+.barra-nav {
+  background-color: rgba(0, 0, 0, 0.9);
+  border-bottom: 2px dashed rgba(255, 255, 255, 0.905);
 }
 
-.barra-nav div a{
-    color: rgba(255, 255, 255, 0.905);
+.barra-nav div a {
+  color: rgba(255, 255, 255, 0.905);
 }
 
-.icon-menu{
-    background-color: rgba(255, 255, 255, 0.905);
+.icon-menu {
+  background-color: rgba(255, 255, 255, 0.905);
 }
 
-.desplegable{
-    background-color:rgba(0, 0, 0, 0.9) ;
+.desplegable {
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
-                        /* SECCION INICIO */
-.main{
-    height: 59vh;
+/* ASIDE */
+.aside, .aside-servicios, .aside-agenda, .aside-diseños {
+  background-color: rgba(0, 0, 0, 0.9);
+  border: dashed rgba(255, 255, 255, 0.905);
+  width: 60px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 4;
+  transition: ease-in-out, 0.5s;
 }
 
-.row h1{
-    color:rgba(255, 255, 255, 0.905) ;
-    border: 2px dashed rgba(255, 255, 255, 0.905);
-    display: inline-block;
+aside ul li:hover {
+  width: 130%;
 }
 
-.agenda{
-    background-color: rgba(0, 0, 0, 0.9045);
-    height: 100vh;
+/* SECCION INICIO */
+.main {
+  height: 60vh;
 }
 
-.boton{
-    background-color: rgb(39, 39, 167);
-    border: dashed rgba(255, 255, 255, 0.905) ;
-    border-radius: 200px;
+.row h1 {
+  color: rgba(255, 255, 255, 0.905);
+  border: 2px dashed rgba(255, 255, 255, 0.905);
+  display: inline-block;
 }
 
-@media only screen and (min-width:600px){
-
-    .agenda{
-        margin-right: 5%;
-    }
+.agenda {
+  background-color: rgba(0, 0, 0, 0.9045);
+  height: 100vh;
 }
 
-@media only screen and (min-width:600px) {
-
-    .agenda {
-        margin-right: 7%;
-    }
+.boton {
+  background-color: rgb(39, 39, 167);
+  border: dashed rgba(255, 255, 255, 0.905);
+  border-radius: 200px;
 }
 
-                            /* ASIDE */
-.aside, .aside-servicios, .aside-agenda, .aside-diseños{
-    background-color:rgba(0, 0, 0, 0.9) ;
-    border: dashed rgba(255, 255, 255, 0.905) ;
-    width: 60px;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    position:fixed; 
-    z-index: 4;
-    transition: ease-in-out, 0.5s;
+@media only screen and (min-width: 600px) {
+  .agenda {
+    margin-right: 5%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .agenda {
+    margin-right: 7%;
+  }
+}
+/* FOOTER */
+.footer {
+  background-color: rgba(0, 0, 0, 0.9);
+  border-top: dashed rgba(255, 255, 255, 0.905);
+  font-size: 10px;
+  display: flex;
+  align-self: end;
+  height: 20vh;
 }
 
-aside ul li:hover{
-
-        width: 130%;
-       
+h3 {
+  font-size: 10px;
 }
 
-                            /* FOOTER */
-                        
-.footer, .footer-diseños{
-    background-color: rgba(0, 0, 0, 0.9);
-    border-top: dashed rgba(255, 255, 255, 0.905) ;
-    font-size: 10px;
-    display: flex;
-    align-self: end;
-    height: 28vh;
-    position: relative;
-    top: 5%;
-
+/* SECCiÓN Desastre's */
+.main-sde {
+  background-color: rgba(0, 0, 0, 0.9045);
+  height: 60%;
+  margin-top: 1%;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
-h3{
-    font-size: 10px;
+.img-sde {
+  width: 100%;
+  height: 20%;
+  margin-left: 18%;
+  margin-top: 10%;
+  object-fit: cover;
 }
 
-                        /* SECCiÓN Desastre's */
-
- .main-sde{
-    background-color: rgba(0, 0, 0, 0.9045);
-    height: 50%;
-    margin-top: 4%;
-
-    overflow-y: scroll;
-    overflow-x: hidden;
- } 
- 
- .img-sde{
-   
-    width: 100%;
-    height: 20%;
-    margin-left: 18%;
-    margin-top: 10%;
-    object-fit: cover;
-   
-    
- }
-
- .p-db{
-    width: 100%;
-    height: 100px;
-    
-    margin-left: 18%;
-    margin-top: 10%;
-    overflow-y: scroll;
-    color:rgba(255, 255, 255, 0.905);
-
- }
- 
-.article-sde{
-    height: 100%;
-    
-    
+.p-db {
+  width: 100%;
+  height: 100px;
+  margin-left: 18%;
+  margin-top: 10%;
+  overflow-y: scroll;
+  color: rgba(255, 255, 255, 0.905);
 }
 
-.aside-desastres{
-    background-color: rgba(0, 0, 0, 0.9);
-        border: dashed rgba(255, 255, 255, 0.905);
-        width: 60px;
-        height: 250px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        position: fixed;
-        z-index: 4;
-        transition: ease-in-out, 0.5s;
-    
+.article-sde {
+  height: 100%;
 }
 
-.aside-li:hover{
-
-    width: 130%;
+.aside-desastres {
+  background-color: rgba(0, 0, 0, 0.9);
+  border: dashed rgba(255, 255, 255, 0.905);
+  width: 60px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 4;
+  transition: ease-in-out, 0.5s;
 }
 
-.volver{
-    position: relative;
-    left: 40%;
-    bottom: 2vh;
+.aside-li:hover {
+  width: 130%;
 }
 
-@media only screen and (min-width:600px) {
-    .article-sde{
-        margin-right: 25px;
-    }
-
-        .volver {
-           
-            left: 45%;
-}
+.volver {
+  position: relative;
+  left: 40%;
+  bottom: 2vh;
 }
 
-@media only screen and (min-width:750px) {
-    .article-sde {
-        margin-right: 35px;
-    }
-
-    .volver {
-
-        left: 45%;
-    }
+@media only screen and (min-width: 600px) {
+  .article-sde {
+    margin-right: 25px;
+  }
+  .volver {
+    left: 45%;
+  }
+}
+@media only screen and (min-width: 750px) {
+  .article-sde {
+    margin-right: 35px;
+  }
+  .volver {
+    left: 45%;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .article-sde {
+    margin-right: 50px;
+  }
+  .volver {
+    left: 47%;
+  }
+}
+/* SECCION DISEÑOS */
+.main-diseños {
+  background-color: rgba(0, 0, 0, 0.9045);
+  margin-top: 2%;
+  margin-bottom: 2%;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
-@media only screen and (min-width:900px) {
-    .article-sde {
-        margin-right: 50px;
-    }
-
-    .volver {
-
-        left: 47%;
-    }
-}
-
-                            /* SECCION DISEÑOS */
-
-.main-diseños{
-    background-color: rgba(0, 0, 0, 0.9045);
-    height: 60%;
-    margin-top: 2%;
-
-    overflow-y: scroll;
-    overflow-x: hidden;
-}
-
-.contenedor-img{
-    width: 100%;
-    height: 100%;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background-color: #03afff;
-    border-radius: 4px;
-    transition: transform 0.3s ease-in-out;
-
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.contenedor-img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #03afff;
+  border-radius: 4px;
+  transition: transform 0.3s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .contenedor-img:hover {
-    filter: opacity(0.9);
-    transform: scale(1.04);
+  filter: opacity(0.9);
+  transform: scale(1.04);
 }
 
 .contenedor-galeria {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-auto-rows: minmax(200px, auto);
+  gap: 20px;
+  padding: 20px;
+  grid-auto-flow: dense;
+}
+
+.rectangular {
+  grid-column: span 2;
+}
+
+.img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (min-width: 800px) {
+  .contenedor-galeria {
     display: grid;
-    grid-template-columns: 2fr 3fr;
-    grid-auto-rows: minmax(200px, auto);
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: 150px;
     gap: 20px;
     padding: 20px;
     grid-auto-flow: dense;
+  }
+  .rectangular {
+    grid-column: auto;
+  }
+  .none {
+    display: none;
+  }
+}
+.carrousel {
+  border: 2px dashed white;
 }
 
-.rectangular{
-    grid-column: span 2;
+.carrousel_img {
+  object-fit: fill;
 }
 
-.img{
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: cover;
+/* SECCION NUESTROS SERVICIOS */
+.listado {
+  background-image: url(../images/fondo-tabla.jpg);
+  background-size: auto;
+  border: 2px dashed rgba(255, 255, 255, 0.905);
+  color: rgb(174, 95, 30);
+  width: 60vw;
+  height: 40vh;
 }
 
-@media only screen and (min-width:800px){
-    .contenedor-galeria {
-            display: grid;
-            grid-template-columns: repeat(4, 2fr);
-            grid-template-rows: 150px;
-            gap: 20px;
-            padding: 20px;
-            grid-auto-flow: dense;
-}
-    .rectangular{
-        grid-column: auto;
-    }
-
-    .none{
-        display: none;
-    }
+.main-servicios {
+  background-color: rgba(0, 0, 0, 0.9045);
+  height: 60%;
+  margin-top: 2%;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
-    .carrousel img{
-        height: 60vh;
-        max-width: 50vw;
-        object-fit: fill;
-        margin-left: 20%;
-          }
-
-          .carrousel{
-            border: 2px dashed white;
-          }
-
-   
-
-
-                                /* SECCION NUESTROS SERVICIOS */
-
-
-.listado{
-
-    background-image: url(../images/fondo-tabla.jpg);
-    background-size: auto;
-    border:2px dashed rgba(255, 255, 255, 0.905) ;
-    color:rgb(174, 95, 30);
-    width: 60vw;
-    height: 40vh;
-
+.aside-servicios {
+  position: relative;
+  right: 30%;
+  top: 15%;
 }
 
-.main-servicios{
-
-            background-color: rgba(0, 0, 0, 0.9045);
-            height: 60%;
-            margin-top: 2%;
-    
-            overflow-y: scroll;
-            overflow-x: hidden;
+.hover:hover {
+  background-color: rgba(255, 255, 255, 0.905);
+  transition: ease-in-out 0.5s;
 }
 
-.aside-servicios{
-    position: relative;
-    right: 30%;
-    top: 15%;
-
+.listado {
+  position: relative;
+  right: 25%;
 }
 
-.hover:hover{
-    background-color:rgba(255, 255, 255, 0.905) ;
-    transition:  ease-in-out 0.5s;
+/* SECCION AGENDA WEB */
+.main-agenda {
+  background-color: rgba(0, 0, 0, 0.9045);
+  height: 90%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
-.listado{
-    position: relative;
-    right: 25%;
-}
-    
-                                    /* SECCION AGENDA WEB */
-
-.main-agenda{
-    background-color: rgba(0, 0, 0, 0.9045);
-        height: 60%;
-        margin-top: 2%;
-        display: flex;
-    
-        overflow-y: scroll;
-        overflow-x: hidden;
-
+.article-titulo h3 {
+  color: rgba(255, 255, 255, 0.905);
+  font-size: 1.5rem;
 }
 
-.aside-agenda{
-    position: relative;
-    right: 9%;
+.article-titulo {
+  border: 2px dashed rgba(255, 255, 255, 0.905);
+  width: fit-content;
+  height: fit-content;
 }
 
-.article-titulo h3{
-
-    color: rgba(255, 255, 255, 0.905) ;
-    font-size: 1.5rem;   
+.article-calendario {
+  height: 76%;
+  border: 2px dashed rgba(255, 255, 255, 0.905);
 }
 
-.article-titulo{
-    border: 2px dashed rgba(255, 255, 255, 0.905);
-    width:fit-content ;
-    position: relative;
-    right: 5%;
-
-
+.article-boton {
+  width: fit-content;
 }
 
-.article-calendario{
-    height:76%;
-
-    border: 2px dashed rgba(255, 255, 255, 0.905);
-
-    position: relative;
-    right: 10%;
-    top: 3%;
-
+.boton {
+  background-color: rgba(20, 20, 174, 0.674);
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.905);
 }
 
-.article-boton{
-    width: fit-content;
-    position: relative;
-    left: 40%;
-    top: 1.5vh;
-  
-}
-
-.boton{
-    background-color: rgba(20, 20, 174, 0.674);
-    text-decoration: none;
-    color:rgba(255, 255, 255, 0.905) ;
- 
-    
-}
-
-@media only screen and (min-width:600px){
-    
-    .article-titulo{
-       left: 7%;
-    }
-
-    .article-calendario {
-        
-        right: 15%;
-            
-    }
-}
-
-@media only screen and (min-width:800px) {
-
-    .article-titulo {
-        left: 10%;
-    }
-}
-
-@media only screen and (min-width:1000px) {
-
-    .article-titulo {
-        left: 12%;
-    }
-
-    .article-calendario {
-    
-        right: 20%;
-    
-    }
-}
-
-
-
-
-
-                                    
-
-
-
+/*# sourceMappingURL=estilo.css.map */

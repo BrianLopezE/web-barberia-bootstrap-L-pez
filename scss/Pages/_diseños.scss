@@ -2,8 +2,9 @@
 
 .main-diseños{
     background-color: rgba(0, 0, 0, 0.9045);
-    height: 60%;
+
     margin-top: 2%;
+    margin-bottom: 2%;
 
     overflow-y: scroll;
     overflow-x: hidden;
@@ -59,25 +60,22 @@
             padding: 20px;
             grid-auto-flow: dense;
 }
-    .rectangular{
+.rectangular{
         grid-column: auto;
     }
 
-    .none{
+.none{
         display: none;
     }
 }
 
-    .carrousel img{
-        height: 60vh;
-        max-width: 50vw;
-        object-fit: fill;
-        margin-left: 20%;
-          }
-
-          .carrousel{
+.carrousel{
             border: 2px dashed white;
           }
+
+.carrousel_img{
+    object-fit: fill;
+}
 
    
 
