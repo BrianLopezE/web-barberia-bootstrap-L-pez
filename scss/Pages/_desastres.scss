@@ -1,7 +1,7 @@
                         /* SECCiÓN Desastre's */
 
  .main-sde{
-    background-color: rgba(0, 0, 0, 0.9045);
+    background-color:$c-principal;
     height: 60%;
     margin-top: 1%;
 
@@ -27,7 +27,7 @@
     margin-left: 18%;
     margin-top: 10%;
     overflow-y: scroll;
-    color:rgba(255, 255, 255, 0.905);
+    color:$c-secundario;
 
  }
  
@@ -38,8 +38,8 @@
 }
 
 .aside-desastres{
-    background-color: rgba(0, 0, 0, 0.9);
-        border: dashed rgba(255, 255, 255, 0.905);
+    background-color:$c-principal;
+        border:$b-dashed;
         width: 60px;
         height: 250px;
         display: flex;

@@ -5,8 +5,12 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: melody;
+  src: url(../../fuentes/melody.otf);
+}
 * {
-  font-family: "Lobster", cursive;
+  font-family: melody;
 }
 
 body {
@@ -20,7 +24,7 @@ body {
 /* HEADER */
 .barra-nav {
   background-color: rgba(0, 0, 0, 0.9);
-  border-bottom: 2px dashed rgba(255, 255, 255, 0.905);
+  border-bottom: dashed 2px rgba(255, 255, 255, 0.905);
 }
 
 .barra-nav div a {
@@ -35,10 +39,73 @@ body {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
+.hero {
+  height: 85.5vh;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.hero_boton {
+  height: 10%;
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.905);
+  transition: ease-in-out 0.5s;
+}
+.hero_boton.hero_boton:hover {
+  background-color: rgba(255, 255, 255, 0.905);
+  color: rgba(0, 0, 0, 0.9);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+  .hero_boton {
+    width: 300px;
+  }
+}
+.agenda_boton {
+  width: 50%;
+  background-color: rgb(39, 39, 167);
+  border: dashed 2px rgba(255, 255, 255, 0.905);
+  color: rgba(255, 255, 255, 0.905);
+  margin-left: 20%;
+}
+
+@media only screen and (max-width: 500px) {
+  .agenda_boton {
+    width: 200px;
+    margin-left: 0%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .agenda_boton {
+    width: 200px;
+    margin-left: 10%;
+  }
+}
+.boton_enviar {
+  color: rgba(255, 255, 255, 0.905);
+  border-color: rgba(255, 255, 255, 0.905);
+  transition: 0.5s;
+}
+.boton_enviar:hover {
+  background-color: rgba(255, 255, 255, 0.905);
+}
+
+.boton_volver {
+  background-color: rgb(39, 39, 167);
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.905);
+  border: dashed 2px rgba(255, 255, 255, 0.905);
+  width: 200px;
+}
+
+.icon-menu {
+  background-color: rgba(255, 255, 255, 0.905);
+}
+
 /* ASIDE */
 .aside, .aside-servicios, .aside-agenda, .aside-diseños {
-  background-color: rgba(0, 0, 0, 0.9);
-  border: dashed rgba(255, 255, 255, 0.905);
+  background-color: rgba(0, 0, 0, 0.3);
+  border: dashed 2px rgba(255, 255, 255, 0.905);
   width: 60px;
   height: 250px;
   display: flex;
@@ -56,40 +123,23 @@ aside ul li:hover {
 
 /* SECCION INICIO */
 .main {
-  height: 60vh;
+  height: 70vh;
 }
 
-.row h1 {
+h3 {
   color: rgba(255, 255, 255, 0.905);
-  border: 2px dashed rgba(255, 255, 255, 0.905);
   display: inline-block;
 }
 
 .agenda {
-  background-color: rgba(0, 0, 0, 0.9045);
+  background-color: rgba(0, 0, 0, 0.9);
   height: 100vh;
 }
 
-.boton {
-  background-color: rgb(39, 39, 167);
-  border: dashed rgba(255, 255, 255, 0.905);
-  border-radius: 200px;
-}
-
-@media only screen and (min-width: 600px) {
-  .agenda {
-    margin-right: 5%;
-  }
-}
-@media only screen and (min-width: 600px) {
-  .agenda {
-    margin-right: 7%;
-  }
-}
 /* FOOTER */
 .footer {
   background-color: rgba(0, 0, 0, 0.9);
-  border-top: dashed rgba(255, 255, 255, 0.905);
+  border-top: dashed 2px rgba(255, 255, 255, 0.905);
   font-size: 10px;
   display: flex;
   align-self: end;
@@ -102,7 +152,7 @@ h3 {
 
 /* SECCiÓN Desastre's */
 .main-sde {
-  background-color: rgba(0, 0, 0, 0.9045);
+  background-color: rgba(0, 0, 0, 0.9);
   height: 60%;
   margin-top: 1%;
   overflow-y: scroll;
@@ -132,7 +182,7 @@ h3 {
 
 .aside-desastres {
   background-color: rgba(0, 0, 0, 0.9);
-  border: dashed rgba(255, 255, 255, 0.905);
+  border: dashed 2px rgba(255, 255, 255, 0.905);
   width: 60px;
   height: 250px;
   display: flex;
@@ -180,7 +230,7 @@ h3 {
 }
 /* SECCION DISEÑOS */
 .main-diseños {
-  background-color: rgba(0, 0, 0, 0.9045);
+  background-color: rgba(0, 0, 0, 0.9);
   margin-top: 2%;
   margin-bottom: 2%;
   overflow-y: scroll;
@@ -193,7 +243,6 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #03afff;
   border-radius: 4px;
   transition: transform 0.3s ease-in-out;
   background-size: cover;
@@ -242,7 +291,7 @@ h3 {
   }
 }
 .carrousel {
-  border: 2px dashed white;
+  border: dashed 2px rgba(255, 255, 255, 0.905);
 }
 
 .carrousel_img {
@@ -253,14 +302,14 @@ h3 {
 .listado {
   background-image: url(../images/fondo-tabla.jpg);
   background-size: auto;
-  border: 2px dashed rgba(255, 255, 255, 0.905);
-  color: rgb(174, 95, 30);
+  border: dashed 2px rgba(255, 255, 255, 0.905);
+  color: rgba(255, 255, 255, 0.905);
   width: 60vw;
   height: 40vh;
 }
 
 .main-servicios {
-  background-color: rgba(0, 0, 0, 0.9045);
+  background-color: rgba(0, 0, 0, 0.9);
   height: 60%;
   margin-top: 2%;
   overflow-y: scroll;
@@ -274,7 +323,7 @@ h3 {
 }
 
 .hover:hover {
-  background-color: rgba(255, 255, 255, 0.905);
+  background-color: rgba(0, 0, 0, 0.9);
   transition: ease-in-out 0.5s;
 }
 
@@ -285,7 +334,7 @@ h3 {
 
 /* SECCION AGENDA WEB */
 .main_agenda {
-  background-color: rgba(0, 0, 0, 0.9045);
+  background-color: rgba(0, 0, 0, 0.9);
   height: 60vh;
   margin-top: 2%;
   margin-bottom: 2%;
@@ -299,7 +348,7 @@ h3 {
 }
 
 .article_titulo {
-  border: 2px dashed rgba(255, 255, 255, 0.905);
+  border: dashed 2px rgba(255, 255, 255, 0.905);
   width: fit-content;
   height: fit-content;
   align-self: center;
@@ -309,18 +358,8 @@ h3 {
   width: fit-content;
 }
 
-.horarios {
-  overflow-y: scroll;
-}
-
 .article_boton {
   width: fit-content;
-}
-
-.boton {
-  background-color: rgba(20, 20, 174, 0.674);
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.905);
 }
 
 /*# sourceMappingURL=estilo.css.map */

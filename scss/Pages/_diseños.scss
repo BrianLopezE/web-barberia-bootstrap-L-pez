@@ -1,7 +1,7 @@
                             /* SECCION DISEÑOS */
 
 .main-diseños{
-    background-color: rgba(0, 0, 0, 0.9045);
+    background-color:$c-principal;
 
     margin-top: 2%;
     margin-bottom: 2%;
@@ -18,7 +18,6 @@
     align-items: center;
     justify-content: center;
 
-    background-color: #03afff;
     border-radius: 4px;
     transition: transform 0.3s ease-in-out;
 
@@ -70,7 +69,7 @@
 }
 
 .carrousel{
-            border: 2px dashed white;
+            border: $b-dashed;
           }
 
 .carrousel_img{

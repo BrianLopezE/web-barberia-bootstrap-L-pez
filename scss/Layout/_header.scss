@@ -1,18 +1,18 @@
                             /* HEADER */
 
 .barra-nav {
-    background-color: rgba(0, 0, 0, 0.9);
-    border-bottom: 2px dashed rgba(255, 255, 255, 0.905);
+    background-color: $c-principal;
+    border-bottom: $b-dashed;
 }
 
 .barra-nav div a {
-    color: rgba(255, 255, 255, 0.905);
+    color:$c-secundario;
 }
 
 .icon-menu {
-    background-color: rgba(255, 255, 255, 0.905);
+    background-color:$c-secundario;
 }
 
  .desplegable {
-     background-color: rgba(0, 0, 0, 0.9);
+     background-color:$c-principal;
 }

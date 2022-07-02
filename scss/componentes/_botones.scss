@@ -1,0 +1,65 @@
+                // BOTONES
+
+.hero_boton{
+    height: 10%;
+    font-size: 1.5rem;
+    color: $c-secundario;
+    transition: ease-in-out 0.5s;
+    &.hero_boton:hover{
+        background-color:$c-secundario;
+        color:$c-principal;
+        cursor: pointer;
+
+    }
+}
+
+@media only screen and (max-width:500px){
+    .hero_boton{
+        width: 300px;
+       
+    }
+}
+
+.agenda_boton{
+    width: 50%;
+    background-color:$c-azul;
+    border:$b-dashed;
+    color:$c-secundario;
+    margin-left: 20%;
+}
+
+@media only screen and (max-width:500px){
+    .agenda_boton{
+        width: 200px;
+        margin-left: 0%;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .agenda_boton{
+        width: 200px;
+        margin-left: 10%;
+    }
+}
+
+.boton_enviar{
+    color:$c-secundario;
+    border-color:$c-secundario;
+    transition: 0.5s;
+    &:hover{
+        background-color:$c-secundario;
+    }
+}
+
+.boton_volver{
+    background-color:$c-azul;
+    text-decoration: none;
+    color:$c-secundario;
+    border:$b-dashed; 
+    width: 200px; 
+}
+
+
+.icon-menu{
+    background-color:$c-secundario;
+}

@@ -1,38 +1,19 @@
                        /* SECCION INICIO */
 .main{
-    height: 60vh;
-  
+    height: 70vh;
 }
 
-.row h1{
-    color:rgba(255, 255, 255, 0.905) ;
-    border: 2px dashed rgba(255, 255, 255, 0.905);
+h3{
+    color:$c-secundario;
     display: inline-block;
 }
 
 .agenda{
-    background-color: rgba(0, 0, 0, 0.9045);
+    background-color:$c-principal;
     height: 100vh;
 }
 
-.boton{
-    background-color: rgb(39, 39, 167);
-    border: dashed rgba(255, 255, 255, 0.905) ;
-    border-radius: 200px;
-}
 
-@media only screen and (min-width:600px){
 
-    .agenda{
-        margin-right: 5%;
-    }
-}
-
-@media only screen and (min-width:600px) {
-
-    .agenda {
-        margin-right: 7%;
-    }
-}
 
   

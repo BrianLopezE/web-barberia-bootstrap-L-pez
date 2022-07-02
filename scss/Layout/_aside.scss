@@ -1,7 +1,7 @@
                           /* ASIDE */
 .aside, .aside-servicios, .aside-agenda, .aside-diseños{
-    background-color:rgba(0, 0, 0, 0.9) ;
-    border: dashed rgba(255, 255, 255, 0.905) ;
+    background-color:$bg-aside;
+    border:$b-dashed;
     width: 60px;
     height: 250px;
     display: flex;

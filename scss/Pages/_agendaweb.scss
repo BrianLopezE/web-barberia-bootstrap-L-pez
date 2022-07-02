@@ -1,11 +1,10 @@
                                     /* SECCION AGENDA WEB */
 
 .main_agenda{
-    background-color: rgba(0, 0, 0, 0.9045);
+    background-color:$c-principal;
         height: 60vh;
         margin-top: 2%;
         margin-bottom: 2%;
-    
     
         overflow-y: scroll;
         overflow-x: hidden;
@@ -14,12 +13,12 @@
 
 .article_titulo h3{
 
-    color: rgba(255, 255, 255, 0.905) ;
+    color: $c-secundario;
     font-size: 1.5rem;   
 }
 
 .article_titulo{
-    border: 2px dashed rgba(255, 255, 255, 0.905);
+    border:$b-dashed;
     width:fit-content ;
     height: fit-content;
     align-self: center;
@@ -27,27 +26,17 @@
 
 .article_agenda{
 
-    width: fit-content;
-   
-
-   
-}
-
-.horarios{
-    overflow-y: scroll;
+    width: fit-content;  
 }
 
 .article_boton{
-    width: fit-content;
-   
-  
+    width: fit-content;  
 }
 
-.boton{
-    background-color: rgba(20, 20, 174, 0.674);
-    text-decoration: none;
-    color:rgba(255, 255, 255, 0.905) ;  
-}
+
+
+
+
 
 
 

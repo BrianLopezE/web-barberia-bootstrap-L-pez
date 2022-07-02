@@ -5,8 +5,8 @@
 
     background-image: url(../images/fondo-tabla.jpg);
     background-size: auto;
-    border:2px dashed rgba(255, 255, 255, 0.905) ;
-    color:rgb(174, 95, 30);
+    border:$b-dashed;
+    color:$c-secundario;
     width: 60vw;
     height: 40vh;
 
@@ -14,7 +14,7 @@
 
 .main-servicios{
 
-            background-color: rgba(0, 0, 0, 0.9045);
+            background-color:$c-principal;
             height: 60%;
             margin-top: 2%;
     
@@ -30,7 +30,7 @@
 }
 
 .hover:hover{
-    background-color:rgba(255, 255, 255, 0.905) ;
+    background-color:$c-principal ;
     transition:  ease-in-out 0.5s;
 }
 

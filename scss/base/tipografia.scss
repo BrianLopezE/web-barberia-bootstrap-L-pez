@@ -1,3 +1,10 @@
-*{
-    font-family: 'Lobster', cursive;
+@font-face {
+    font-family:melody;
+    src: url(../../fuentes/melody.otf);
 }
+
+*{
+    font-family:melody;
+}
+
+
