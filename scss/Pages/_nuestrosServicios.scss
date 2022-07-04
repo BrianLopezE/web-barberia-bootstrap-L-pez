@@ -1,6 +1,14 @@
                                 /* SECCION NUESTROS SERVICIOS */
 
 
+
+.main-servicios{
+
+            background-color:$c-principal;
+            height: 60vh;
+            overflow: hidden;
+}
+
 .listado{
 
     background-image: url(../images/fondo-tabla.jpg);
@@ -10,34 +18,14 @@
     width: 60vw;
     height: 40vh;
 
-}
-
-.main-servicios{
-
-            background-color:$c-principal;
-            height: 60%;
-            margin-top: 2%;
-    
-            overflow-y: scroll;
-            overflow-x: hidden;
-}
-
-.aside-servicios{
     position: relative;
-    right: 30%;
-    top: 15%;
-
-}
-
-.hover:hover{
+    right: 25%;
+    .hover:hover{
     background-color:$c-principal ;
     transition:  ease-in-out 0.5s;
 }
-
-.listado{
-    position: relative;
-    right: 25%;
 }
+    
     
 
 

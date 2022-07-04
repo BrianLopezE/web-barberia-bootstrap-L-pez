@@ -1,17 +1,17 @@
                        /* SECCION INICIO */
 .main{
     height: 70vh;
-}
 
-h3{
-    color:$c-secundario;
-    display: inline-block;
-}
-
-.agenda{
+    .agenda{
     background-color:$c-principal;
     height: 100vh;
+    & h3{
+    color:$c-secundario;
+    display: inline-block;
+    }
 }
+}
+
 
 
 

@@ -2,69 +2,44 @@
 
  .main-sde{
     background-color:$c-principal;
-    height: 60%;
+    height: 66vh;
     margin-top: 1%;
 
     overflow-y: scroll;
     overflow-x: hidden;
+
+        .sde_img{
+   
+             width: 100%;
+             height: 20%;
+            margin-left: 18%;
+            margin-top: 10%;
+            object-fit: cover;
+        }
+        .sde_article{
+             height: 100%;
+        }
+
+        .p-db{
+            width: 100%;
+            height: 100px;
+    
+            margin-left: 18%;
+            margin-top: 10%;
+            overflow-y: scroll;
+            color:$c-secundario;
+        }
+
+        .volver{
+            position: relative;
+            left: 40%;
+            bottom: 2vh;
+        }
  } 
  
- .img-sde{
-   
-    width: 100%;
-    height: 20%;
-    margin-left: 18%;
-    margin-top: 10%;
-    object-fit: cover;
-   
-    
- }
-
- .p-db{
-    width: 100%;
-    height: 100px;
-    
-    margin-left: 18%;
-    margin-top: 10%;
-    overflow-y: scroll;
-    color:$c-secundario;
-
- }
- 
-.article-sde{
-    height: 100%;
-    
-    
-}
-
-.aside-desastres{
-    background-color:$c-principal;
-        border:$b-dashed;
-        width: 60px;
-        height: 250px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        position: fixed;
-        z-index: 4;
-        transition: ease-in-out, 0.5s;
-    
-}
-
-.aside-li:hover{
-
-    width: 130%;
-}
-
-.volver{
-    position: relative;
-    left: 40%;
-    bottom: 2vh;
-}
 
 @media only screen and (min-width:600px) {
-    .article-sde{
+    .sde_article{
         margin-right: 25px;
     }
 
@@ -75,7 +50,7 @@
 }
 
 @media only screen and (min-width:750px) {
-    .article-sde {
+    .sde_article{
         margin-right: 35px;
     }
 
@@ -86,7 +61,7 @@
 }
 
 @media only screen and (min-width:900px) {
-    .article-sde {
+    .sde_article {
         margin-right: 50px;
     }
 

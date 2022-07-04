@@ -1,5 +1,5 @@
                           /* ASIDE */
-.aside, .aside-servicios, .aside-agenda, .aside-diseños{
+.aside{
     background-color:$bg-aside;
     border:$b-dashed;
     width: 60px;
@@ -11,10 +11,9 @@
     position:fixed; 
     z-index: 4;
     transition: ease-in-out, 0.5s;
+    & li:hover{
+
+        width: 130%;      
+}
 }
 
-aside ul li:hover{
-
-        width: 130%;
-       
-}

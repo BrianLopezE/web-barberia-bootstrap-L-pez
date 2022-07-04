@@ -2,19 +2,12 @@
 
 .main_agenda{
     background-color:$c-principal;
-        height: 60vh;
+        height: 61vh;
         margin-top: 2%;
         margin-bottom: 2%;
-    
-        overflow-y: scroll;
-        overflow-x: hidden;
+        
+        overflow: hidden;
 
-}
-
-.article_titulo h3{
-
-    color: $c-secundario;
-    font-size: 1.5rem;   
 }
 
 .article_titulo{
@@ -22,16 +15,25 @@
     width:fit-content ;
     height: fit-content;
     align-self: center;
-}
 
-.article_agenda{
+    & h3{
+    color: $c-secundario;
+    font-size: 1.5rem;   
+    }
+
+    &_agenda{
 
     width: fit-content;  
+    }  
+    
+    &_boton{
+    width: fit-content;  
+    }
 }
 
-.article_boton{
-    width: fit-content;  
-}
+
+
+
 
 
 
