@@ -1,0 +1,13 @@
+@mixin mediaq-sde ($mr, $left) {
+
+     .sde_article{
+        margin-right: $mr;
+    }
+
+        .volver {
+           
+            left: $left;
+}
+
+    
+} 

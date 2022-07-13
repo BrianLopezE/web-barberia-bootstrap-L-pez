@@ -1,7 +1,7 @@
                             /* SECCION DISEÑOS */
 
 .main-diseños{
-    background-color:$c-principal;
+    background-color:map-get($paleta, "principal");
 
     margin-top: 2%;
     margin-bottom: 2%;

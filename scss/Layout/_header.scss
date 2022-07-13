@@ -1,20 +1,20 @@
                             /* HEADER */
 
 .nav {
-    background-color: $c-principal;
+    background-color:map-get($paleta, "principal");
     border-bottom: $b-dashed;
     &_icon{
-        background-color:$c-secundario;
+        background-color:map-get($paleta, "secundario");
     }
     & div a {
-    color:$c-secundario;
+    color:map-get($paleta, "secundario");
 }
     &_iconMenu{
-         background-color:$c-secundario;
+         background-color:map-get($paleta, "secundario");
 
     }
 .desplegable {
-     background-color:$c-principal;
+     background-color:map-get($paleta, "principal");
 }
 }
 

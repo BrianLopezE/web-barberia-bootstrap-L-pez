@@ -3,10 +3,10 @@
     height: 70vh;
 
     .agenda{
-    background-color:$c-principal;
+    background-color:map-get($paleta, "principal");
     height: 100vh;
     & h3{
-    color:$c-secundario;
+    color:map-get($paleta, "secundario");
     display: inline-block;
     }
 }

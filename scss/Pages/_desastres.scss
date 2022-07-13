@@ -1,7 +1,7 @@
                         /* SECCiÓN Desastre's */
 
  .main-sde{
-    background-color:$c-principal;
+    background-color:map-get($paleta, "principal");
     height: 66vh;
     margin-top: 1%;
 
@@ -27,7 +27,7 @@
             margin-left: 18%;
             margin-top: 10%;
             overflow-y: scroll;
-            color:$c-secundario;
+            color:map-get($paleta, "secundario");
         }
 
         .volver{
@@ -39,34 +39,13 @@
  
 
 @media only screen and (min-width:600px) {
-    .sde_article{
-        margin-right: 25px;
-    }
-
-        .volver {
-           
-            left: 45%;
-}
+     @include mediaq-sde (25px, 45%);
 }
 
 @media only screen and (min-width:750px) {
-    .sde_article{
-        margin-right: 35px;
-    }
-
-    .volver {
-
-        left: 45%;
-    }
+     @include mediaq-sde (35px, 45%);
 }
 
 @media only screen and (min-width:900px) {
-    .sde_article {
-        margin-right: 50px;
-    }
-
-    .volver {
-
-        left: 47%;
-    }
+     @include mediaq-sde (50px, 47%);
 }

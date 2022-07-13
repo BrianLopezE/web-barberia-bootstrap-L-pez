@@ -1,9 +1,11 @@
                 // COLORES
 
-$c-principal:rgba(0, 0, 0, 0.9);
-$c-secundario:rgba(255, 255, 255, 0.905);
-$c-azul:rgb(39, 39, 167);
-$bg-aside:rgb(0, 0, 0, 0.3);
+$paleta: (
+    principal:rgba(0, 0, 0, 0.9),
+    secundario:rgba(255, 255, 255, 0.905),
+    c-azul:rgb(39, 39, 167),
+    bg-aside:rgb(0, 0, 0, 0.3),
+);
 
                 // BORDE
 

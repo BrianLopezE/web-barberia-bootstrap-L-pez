@@ -2,5 +2,5 @@
 
 .hero{
     height: 89vh;
-    background-color:$c-principal;
+    background-color:map-get($paleta, "principal");
 }

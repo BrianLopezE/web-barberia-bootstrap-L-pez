@@ -1,8 +1,7 @@
                                 /* FOOTER */
 
 .footer{
-  background-color:$c-principal;
-  border-top:$b-dashed;
+  background-color:map-get($paleta, "principal");
   font-size: 10px;
   display: flex;
   align-self: end;

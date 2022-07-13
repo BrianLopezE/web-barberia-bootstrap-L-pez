@@ -1,7 +1,7 @@
                                     /* SECCION AGENDA WEB */
 
 .main_agenda{
-    background-color:$c-principal;
+    background-color:map-get($paleta, "principal");
         height: 61vh;
         margin-top: 2%;
         margin-bottom: 2%;
@@ -17,7 +17,7 @@
     align-self: center;
 
     & h3{
-    color: $c-secundario;
+    color:map-get($paleta, "secundario");
     font-size: 1.5rem;   
     }
 

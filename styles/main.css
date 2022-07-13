@@ -52,7 +52,7 @@ body {
 }
 .hero_boton.hero_boton:hover {
   background-color: rgba(255, 255, 255, 0.905);
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(255, 255, 255, 0.905);
   cursor: pointer;
 }
 
@@ -132,7 +132,6 @@ body {
 /* FOOTER */
 .footer {
   background-color: rgba(0, 0, 0, 0.9);
-  border-top: dashed 2px rgba(255, 255, 255, 0.905);
   font-size: 10px;
   display: flex;
   align-self: end;
@@ -324,4 +323,4 @@ body {
   width: fit-content;
 }
 
-/*# sourceMappingURL=estilo.css.map */
+/*# sourceMappingURL=main.css.map */

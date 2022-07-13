@@ -3,11 +3,11 @@
 .hero_boton{
     height: 10%;
     font-size: 1.5rem;
-    color: $c-secundario;
+    color: map-get($paleta, "secundario");
     transition: ease-in-out 0.5s;
     &.hero_boton:hover{
-        background-color:$c-secundario;
-        color:$c-principal;
+        background-color:map-get($paleta, "secundario");
+        color:map-get($paleta, "secundario");
         cursor: pointer;
 
     }
@@ -22,9 +22,9 @@
 
 .agenda_boton{
     width: 50%;
-    background-color:$c-azul;
+    background-color:map-get($paleta, "c-azul");
     border:$b-dashed;
-    color:$c-secundario;
+    color:map-get($paleta, "secundario");
     margin-left: 20%;
 }
 
@@ -43,18 +43,18 @@
 }
 
 .boton_enviar{
-    color:$c-secundario;
-    border-color:$c-secundario;
+    color:map-get($paleta, "secundario");
+    border-color:map-get($paleta, "secundario");
     transition: 0.5s;
     &:hover{
-        background-color:$c-secundario;
+        background-color:map-get($paleta, "secundario");
     }
 }
 
 .boton_volver{
-    background-color:$c-azul;
+    background-color:map-get($paleta, "c-azul");
     text-decoration: none;
-    color:$c-secundario;
+    color:map-get($paleta, "secundario");
     border:$b-dashed; 
     width: 200px; 
 }

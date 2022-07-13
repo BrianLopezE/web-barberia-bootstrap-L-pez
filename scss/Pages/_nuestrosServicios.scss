@@ -4,7 +4,7 @@
 
 .main-servicios{
 
-            background-color:$c-principal;
+            background-color:map-get($paleta, "principal");
             height: 60vh;
             overflow: hidden;
 }
@@ -14,14 +14,14 @@
     background-image: url(../images/fondo-tabla.jpg);
     background-size: auto;
     border:$b-dashed;
-    color:$c-secundario;
+    color:map-get($paleta, "secundario");
     width: 60vw;
     height: 40vh;
 
     position: relative;
     right: 25%;
     .hover:hover{
-    background-color:$c-principal ;
+    background-color:map-get($paleta, "principal");
     transition:  ease-in-out 0.5s;
 }
 }
