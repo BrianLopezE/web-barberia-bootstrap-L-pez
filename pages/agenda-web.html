@@ -51,8 +51,9 @@
         </div>
     </nav>
     </header>
-    <main class="container-fluid gx-1  main_agenda">
-        <aside class="mt-2">
+    <main class="container-fluid d-flex justify-content-center gx-1  main_agenda">
+        <section class="container-fluid me-5 row d-flex  justify-content-center ms-5 ms-sm-5">
+        <aside class="mt-2 position-absolute">
             <ul class="list-unstyled aside">
                 <li><a href="https://twitter.com/Desastre'sBarber" target="_blank"><img src="../images/twitter.png"
                             alt="icono-twitter"></a></li>
@@ -64,19 +65,18 @@
                             src="../images/whatsapp.png" alt="icono-whatsapp"></a></li>
             </ul>
         </aside>
-        <section class="container row d-flex  justify-content-center ms-1 ms-sm-5 me-sm-4">
             <article class="article_titulo col-12  mt-5">
                 <h3>Reserva tu lugar aquí!</h3>
             </article>
-            <article class="w-100 row mt-3 justify-content-center article_agenda">
+            <article class="container w-100 row  mt-3 justify-content-center article_agenda">
                 <form class="row w-auto gx-3 gy-2 mt- align-items-center">
                     <div class="col">
                         <label class="visually-hidden" for="specificSizeInputName">Nombre</label>
                         <input type="text" class="form-control" id="specificSizeInputName" placeholder="Nombre y Apellido">
                     </div>
-                    <div class="col-12 mt-2">
-                        <label class="visually-hidden h-25" for="specificSizeSelect">Preferencia</label>
-                        <select class="form-select h-25 overflow-scroll" id="specificSizeSelect">
+                    <div class="col-12 mt-5">
+                        <label class="visually-hidden " for="specificSizeSelect">Horario</label>
+                        <select class="form-select  overflow-scroll" id="specificSizeSelect">
                             <option selected>Horario</option>
                             <option value="1">9:00</option>
                             <option value="2">10:00</option>
@@ -93,10 +93,10 @@
                             <option value="13">21:00</option>
                             </div>
                         </select>
-                    <div class="col mt-2">
-                        <label class="visually-hidden h-25" for="specificSizeSelect">Preferencia</label>
+                    <div class="col mt-5">
+                        <label class="visually-hidden h-25" for="specificSizeSelect">Servicio</label>
                         <select class="form-select" id="specificSizeSelect">
-                            <option selected>Servicios</option>
+                            <option selected>Servicio</option>
                             <option value="1">Corte Simple</option>
                             <option value="2">Corte Degrade</option>
                             <option value="4">cejas</option>
@@ -105,7 +105,7 @@
                             <option value="7">Coloración</option>
                         </select>
                     </div>
-                    <div class="col mt-2 text-center ">
+                    <div class="col mt-4 text-center ">
                         <button type="submit" class="btn btn-outline-dark w-50 fs-5 boton_enviar">Enviar</button>
                     </div>
                 </form>
@@ -115,16 +115,16 @@
             </div>
         </section>
     </main>
-    <footer class="container-fluid gx-4 d-flex justify-content-between  fs-6 text-white footer">
-        <div class="col-4 mt-1">
+    <footer class="container-fluid gx-4 d-flex h-25 justify-content-between text-white footer">
+        <div class="col-4 mt-2">
             <ul class="list-unstyled fs-6">
                 <li class="fs-5">Datos de contacto!</li>
-                <li><a href="mailto:desastresbarber@hotmail.com">MAIL</a></li>
-                <li>Tel: 092-XXX-XXX</li>
+                <li><a href="mailto:desastresbarber@hotmail.com">Mail</a></li>
+                <li>Tel:092-xxx-xxx</li>
                 <li>Dirección: Miguel Furriol 15600.</li>
             </ul>
         </div>
-        <iframe class="col-6 ms-5 mt-2 footer__map"
+        <iframe class="col-6 ms-5 mt-3 footer__map"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13117.244276329318!2d-55.97265155532814!3d-3472255266335153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f131!3m3!1m2!1s0x95a026980211b68d%3A0xd9783f1dba24808c!2sMiguel%20Furriol%2C%2015600%20Pando%2C%20Departamento%20de%20Canelones!5e0!3m2!1ses-419!2suy!4v1653609463147!5m2!1ses-419!2suy"
             width="40%" height="60%" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -132,5 +132,4 @@
     </footer>
     <script src="../scripts/bootstrap.js"></script>
 </body>
-
 </html>
