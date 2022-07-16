@@ -279,22 +279,21 @@ body {
 .main-servicios {
   background-color: rgba(0, 0, 0, 0.9);
   height: 60vh;
-  overflow: hidden;
+  overflow-y: scroll;
 }
 
-.listado {
-  background-image: url(../images/fondo-tabla.jpg);
-  background-size: auto;
+.titulo-servicios {
   border: dashed 2px rgba(255, 255, 255, 0.905);
   color: rgba(255, 255, 255, 0.905);
-  width: 60vw;
-  height: 40vh;
-  position: relative;
-  right: 25%;
 }
-.listado .hover:hover {
-  background-color: rgba(0, 0, 0, 0.9);
-  transition: ease-in-out 0.5s;
+
+.card {
+  width: 300px;
+  height: 450px;
+}
+.card-precio {
+  background-color: rgb(39, 39, 167);
+  color: rgba(255, 255, 255, 0.905);
 }
 
 /* SECCION AGENDA WEB */
