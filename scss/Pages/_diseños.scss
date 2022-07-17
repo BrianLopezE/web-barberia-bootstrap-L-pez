@@ -85,12 +85,25 @@
 }
 
 .carrousel{
-            border: $b-dashed;
-          }
+        width: 100%;
+        height: 55%;
+        transition: transform 0.3s ease-in-out;
 
-.carrousel_img{
-    object-fit: fill;
+        &:hover {
+        filter: opacity(0.9);
+        transform: scale(1.02);
 }
+        
+
+        &_img{
+            object-fit: fill;
+            border-radius: 4px;
+
+    }
+
+}
+
+
 
    
 
