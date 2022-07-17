@@ -6,6 +6,40 @@
   display: flex;
   align-self: end;
   height: 20vh;
+
+  &_btn{
+    background-color: map-get($paleta, "c-azul" );
+    border: $b-solid;
+    color: map-get($paleta, "secundario");
+  }
+
+  &_btn:active{
+    background-color: map-get($paleta, "secundario");
+    color: map-get($paleta, "c-azul");
+  }
+
+  &_btn:focus{
+    color: map-get($paleta, "secundario");
+  }
+
+  &_list{
+    background-color:map-get($paleta, "secundario");
+  }
+
+  & li{
+    color: map-get($paleta, "c-azul");
+  }
+
+  
+  & li a{
+    color: map-get($paleta, "c-azul");
+  }
+
+  &_map{
+    height: 90%;
+  }
 }
+
+
 
 
