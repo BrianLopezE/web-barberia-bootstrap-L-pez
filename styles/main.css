@@ -112,25 +112,7 @@ body {
   left: calc(50% - 75px);
 }
 
-/* ASIDE */
-.aside {
-  background-color: rgba(0, 0, 0, 0.3);
-  border: dashed 2px rgba(255, 255, 255, 0.905);
-  width: 60px;
-  height: 250px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  z-index: 4;
-  transition: ease-in-out, 0.5s;
-}
-.aside li:hover {
-  width: 130%;
-}
-
-/* SECCION INICIO */
+/* REDES */ /* SECCION INICIO */
 .main {
   height: 70vh;
 }
@@ -147,9 +129,9 @@ body {
 .footer {
   background-color: rgba(0, 0, 0, 0.9);
   font-size: 10px;
-  display: flex;
   align-self: end;
-  height: 20vh;
+  width: 100%;
+  height: 50%;
 }
 .footer_btn {
   background-color: rgb(37, 37, 247);
@@ -173,7 +155,7 @@ body {
   color: rgb(37, 37, 247);
 }
 .footer_map {
-  height: 90%;
+  width: 100%;
 }
 
 /* SECCiÓN Desastre's */

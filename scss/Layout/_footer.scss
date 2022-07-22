@@ -3,9 +3,10 @@
 .footer{
   background-color:map-get($paleta, "principal");
   font-size: 10px;
-  display: flex;
   align-self: end;
-  height: 20vh;
+  width: 100%;
+  height: 50%;
+
 
   &_btn{
     background-color: map-get($paleta, "c-azul" );
@@ -36,7 +37,7 @@
   }
 
   &_map{
-    height: 90%;
+    width: 100%;
   }
 }
 
