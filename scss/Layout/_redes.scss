@@ -1,1 +1,8 @@
                           /* REDES */
+
+.redes li img:hover{
+       
+    transition:1.2s;
+    width: 110%;
+    transform:rotateY(360deg) ;
+}

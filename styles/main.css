@@ -112,7 +112,14 @@ body {
   left: calc(50% - 75px);
 }
 
-/* REDES */ /* SECCION INICIO */
+/* REDES */
+.redes li img:hover {
+  transition: 1.2s;
+  width: 110%;
+  transform: rotateY(360deg);
+}
+
+/* SECCION INICIO */
 .main {
   height: 70vh;
 }
@@ -156,6 +163,10 @@ body {
 }
 .footer_map {
   width: 100%;
+}
+.footer_map:hover {
+  transition: 1s ease-in;
+  transform: scaleY(1.3);
 }
 
 /* SECCiÓN Desastre's */
@@ -301,6 +312,15 @@ body {
   border-radius: 4px;
 }
 
+.molde_card, .card {
+  width: 300px;
+  height: 450px;
+}
+.molde_card-precio {
+  background-color: rgb(37, 37, 247);
+  color: rgba(255, 255, 255, 0.905);
+}
+
 /* SECCION NUESTROS SERVICIOS */
 .main-servicios {
   background-color: rgba(0, 0, 0, 0.9);
@@ -313,13 +333,10 @@ body {
   color: rgba(255, 255, 255, 0.905);
 }
 
-.card {
-  width: 300px;
-  height: 450px;
-}
-.card-precio {
-  background-color: rgb(37, 37, 247);
-  color: rgba(255, 255, 255, 0.905);
+.card:hover {
+  transition: 1.2s;
+  transform: rotateX(360deg);
+  cursor: pointer;
 }
 
 /* SECCION AGENDA WEB */
