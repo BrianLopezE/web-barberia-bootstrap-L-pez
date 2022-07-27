@@ -1,5 +1,5 @@
 @charset "UTF-8";
-* {
+html {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -172,35 +172,27 @@ body {
 /* SECCiÓN Desastre's */
 .main-sde {
   background-color: rgba(0, 0, 0, 0.9);
+  width: 100%;
   height: 66vh;
-  margin-top: 1%;
   overflow-y: scroll;
   overflow-x: hidden;
 }
 .main-sde .sde_img {
+  position: relative;
   width: 100%;
-  height: 20%;
-  margin-left: 18%;
-  margin-top: 10%;
-  object-fit: cover;
+  height: 55vh;
 }
 .main-sde .sde_article {
-  height: 100%;
+  width: 100vw;
+  object-fit: cover;
 }
 .main-sde .p-db {
   width: 100%;
   height: 100px;
-  margin-left: 18%;
-  margin-top: 10%;
+  border: dashed 2px rgba(255, 255, 255, 0.905);
   overflow-y: scroll;
   color: rgba(255, 255, 255, 0.905);
 }
-.main-sde .volver {
-  position: relative;
-  left: 40%;
-  bottom: 2vh;
-}
-
 @media only screen and (min-width: 600px) {
   .sde_article {
     margin-right: 25px;
