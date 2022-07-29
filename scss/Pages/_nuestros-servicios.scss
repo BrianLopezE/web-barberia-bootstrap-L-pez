@@ -5,7 +5,7 @@
 .main-servicios{
 
             background-color:map-get($paleta, "principal");
-            font-family:fredericka ;
+            font-family:fredericka;
             height: 60vh;
             overflow-y: scroll;
           
@@ -24,7 +24,12 @@
     transition: 1.2s;
     transform: rotateX(360deg);
     cursor: pointer;
-        }  
+    }
+    
+    &-precio{
+        background-color: map-get($paleta, "c-azul" );
+        color: map-get($paleta, "c-negro");
+    }
 }
     
 

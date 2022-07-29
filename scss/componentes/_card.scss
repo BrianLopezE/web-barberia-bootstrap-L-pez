@@ -2,9 +2,4 @@
 .molde_card{
     width: 300px;
     height: 450px;
-
-    &-precio{
-        background-color: map-get($paleta, "c-azul" );
-        color: map-get($paleta, "c-negro");
-    }
 }

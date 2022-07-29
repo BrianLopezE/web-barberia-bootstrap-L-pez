@@ -28,8 +28,8 @@ body {
 /* HEADER */
 .nav {
   background-color: rgba(0, 0, 0, 0.9);
-  border-bottom: dashed 2px rgba(255, 255, 255, 0.905);
   font-family: blaka;
+  border-bottom: dashed 2px rgba(255, 255, 255, 0.905);
 }
 .nav_icon {
   background-color: rgba(255, 255, 255, 0.905);
@@ -324,10 +324,6 @@ body {
   width: 300px;
   height: 450px;
 }
-.molde_card-precio {
-  background-color: rgb(37, 37, 247);
-  color: rgb(0, 0, 0);
-}
 
 /* SECCION NUESTROS SERVICIOS */
 .main-servicios {
@@ -346,6 +342,10 @@ body {
   transition: 1.2s;
   transform: rotateX(360deg);
   cursor: pointer;
+}
+.card-precio {
+  background-color: rgb(37, 37, 247);
+  color: rgb(0, 0, 0);
 }
 
 /* SECCION AGENDA WEB */

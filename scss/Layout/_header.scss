@@ -2,6 +2,7 @@
 
 .nav {
     background-color:map-get($paleta, "principal");
+    font-family:blaka;
     border-bottom: $b-dashed;
     &_icon{
         background-color:map-get($paleta, "secundario");
@@ -13,7 +14,6 @@
          background-color:map-get($paleta, "secundario");
 
     }
-    font-family:blaka;
 }
 .desplegable {
      background-color:map-get($paleta, "principal");
