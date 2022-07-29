@@ -2,7 +2,7 @@
 
 .nav {
     background-color:map-get($paleta, "principal");
-    font-family:blaka;
+    font-family: 'Blaka Hollow', cursive;
     border-bottom: $b-dashed;
     &_icon{
         background-color:map-get($paleta, "secundario");

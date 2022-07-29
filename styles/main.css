@@ -1,20 +1,9 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Blaka+Hollow&family=Fredericka+the+Great&display=swap");
 html {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-}
-
-@font-face {
-  font-family: blaka;
-  src: url(../../fuentes/blaka.ttf);
-}
-@font-face {
-  font-family: fredericka;
-  src: url(../../fuentes/fredericka.ttf);
-}
-main, footer, .hero {
-  font-family: fredericka;
 }
 
 body {
@@ -28,7 +17,7 @@ body {
 /* HEADER */
 .nav {
   background-color: rgba(0, 0, 0, 0.9);
-  font-family: blaka;
+  font-family: "Blaka Hollow", cursive;
   border-bottom: dashed 2px rgba(255, 255, 255, 0.905);
 }
 .nav_icon {
@@ -48,7 +37,7 @@ body {
 .hero {
   height: 89vh;
   background-color: rgba(0, 0, 0, 0.9);
-  font-family: fredericka;
+  font-family: "Fredericka the Great", cursive;
 }
 
 .hero_boton {
@@ -133,7 +122,7 @@ body {
 /* SECCION INICIO */
 .main {
   height: 70vh;
-  font-family: fredericka;
+  font-family: "Fredericka the Great", cursive;
 }
 .main .agenda {
   background-color: rgba(0, 0, 0, 0.9);
@@ -147,7 +136,7 @@ body {
 /* FOOTER */
 .footer {
   background-color: rgba(0, 0, 0, 0.9);
-  font-family: fredericka;
+  font-family: "Fredericka the Great", cursive;
   font-size: 10px;
   align-self: end;
   width: 100%;
@@ -185,7 +174,7 @@ body {
 /* SECCiÓN Desastre's */
 .main-sde {
   background-color: rgba(0, 0, 0, 0.9);
-  font-family: fredericka;
+  font-family: "Fredericka the Great", cursive;
   width: 100%;
   height: 66vh;
   overflow-y: scroll;
@@ -235,7 +224,7 @@ body {
 /* SECCION DISEÑOS */
 .main-diseños {
   background-color: rgba(0, 0, 0, 0.9);
-  font-family: fredericka;
+  font-family: "Fredericka the Great", cursive;
   margin-top: 2%;
   margin-bottom: 2%;
   overflow-y: scroll;
@@ -328,7 +317,7 @@ body {
 /* SECCION NUESTROS SERVICIOS */
 .main-servicios {
   background-color: rgba(0, 0, 0, 0.9);
-  font-family: fredericka;
+  font-family: "Fredericka the Great", cursive;
   height: 60vh;
   overflow-y: scroll;
 }
@@ -351,7 +340,7 @@ body {
 /* SECCION AGENDA WEB */
 .main_agenda {
   background-color: rgba(0, 0, 0, 0.9);
-  font-family: fredericka;
+  font-family: "Fredericka the Great", cursive;
   height: 61vh;
   margin-top: 2%;
   margin-bottom: 2%;
