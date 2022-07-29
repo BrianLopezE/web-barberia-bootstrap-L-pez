@@ -11,12 +11,8 @@ html {
 }
 @font-face {
   font-family: fredericka;
-  src: url(../../fuentes/Fredericka.ttf);
+  src: url(../../fuentes/fredericka.ttf);
 }
-.nav {
-  font-family: blaka;
-}
-
 main, footer, .hero {
   font-family: fredericka;
 }
@@ -33,6 +29,7 @@ body {
 .nav {
   background-color: rgba(0, 0, 0, 0.9);
   border-bottom: dashed 2px rgba(255, 255, 255, 0.905);
+  font-family: blaka;
 }
 .nav_icon {
   background-color: rgba(255, 255, 255, 0.905);
@@ -43,13 +40,15 @@ body {
 .nav_iconMenu {
   background-color: rgba(255, 255, 255, 0.905);
 }
-.nav .desplegable {
+
+.desplegable {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
 .hero {
   height: 89vh;
   background-color: rgba(0, 0, 0, 0.9);
+  font-family: fredericka;
 }
 
 .hero_boton {
@@ -134,6 +133,7 @@ body {
 /* SECCION INICIO */
 .main {
   height: 70vh;
+  font-family: fredericka;
 }
 .main .agenda {
   background-color: rgba(0, 0, 0, 0.9);
@@ -147,6 +147,7 @@ body {
 /* FOOTER */
 .footer {
   background-color: rgba(0, 0, 0, 0.9);
+  font-family: fredericka;
   font-size: 10px;
   align-self: end;
   width: 100%;
@@ -184,6 +185,7 @@ body {
 /* SECCiÓN Desastre's */
 .main-sde {
   background-color: rgba(0, 0, 0, 0.9);
+  font-family: fredericka;
   width: 100%;
   height: 66vh;
   overflow-y: scroll;
@@ -233,6 +235,7 @@ body {
 /* SECCION DISEÑOS */
 .main-diseños {
   background-color: rgba(0, 0, 0, 0.9);
+  font-family: fredericka;
   margin-top: 2%;
   margin-bottom: 2%;
   overflow-y: scroll;
@@ -329,6 +332,7 @@ body {
 /* SECCION NUESTROS SERVICIOS */
 .main-servicios {
   background-color: rgba(0, 0, 0, 0.9);
+  font-family: fredericka;
   height: 60vh;
   overflow-y: scroll;
 }
@@ -347,6 +351,7 @@ body {
 /* SECCION AGENDA WEB */
 .main_agenda {
   background-color: rgba(0, 0, 0, 0.9);
+  font-family: fredericka;
   height: 61vh;
   margin-top: 2%;
   margin-bottom: 2%;
