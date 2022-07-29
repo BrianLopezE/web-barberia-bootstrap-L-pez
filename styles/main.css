@@ -6,11 +6,19 @@ html {
 }
 
 @font-face {
-  font-family: melody;
-  src: url(../../fuentes/melody.otf);
+  font-family: blaka;
+  src: url(../../fuentes/blaka.ttf);
 }
-* {
-  font-family: melody;
+@font-face {
+  font-family: fredericka;
+  src: url(../../fuentes/Fredericka.ttf);
+}
+.nav {
+  font-family: blaka;
+}
+
+main, footer, .hero {
+  font-family: fredericka;
 }
 
 body {
@@ -52,7 +60,7 @@ body {
 }
 .hero_boton.hero_boton:hover {
   background-color: rgba(255, 255, 255, 0.905);
-  color: rgba(255, 255, 255, 0.905);
+  color: rgb(0, 0, 0);
   cursor: pointer;
 }
 
@@ -88,10 +96,10 @@ body {
 }
 .boton_enviar:hover {
   background-color: rgba(255, 255, 255, 0.905);
-  color: rgb(37, 37, 247);
+  color: rgb(0, 0, 0);
 }
 
-.boton, .boton-disenios, .boton-servicios {
+.boton, .boton-disenios, .boton-servicios, .boton-iniciod {
   background-color: rgb(37, 37, 247);
   border: solid 1px rgba(255, 255, 255, 0.905);
   width: 150px;
@@ -101,10 +109,14 @@ body {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.905);
 }
-.boton:hover, .boton-disenios:hover, .boton-servicios:hover {
+.boton:hover, .boton-disenios:hover, .boton-servicios:hover, .boton-iniciod:hover {
   background-color: rgba(255, 255, 255, 0.905);
   color: rgb(37, 37, 247);
   transition: ease-in-out 0.3s;
+}
+.boton-iniciod {
+  position: relative;
+  left: calc(50% - 75px);
 }
 
 .boton-disenios, .boton-servicios {
@@ -193,6 +205,7 @@ body {
   overflow-y: scroll;
   color: rgba(255, 255, 255, 0.905);
 }
+
 @media only screen and (min-width: 600px) {
   .sde_article {
     margin-right: 25px;
@@ -310,7 +323,7 @@ body {
 }
 .molde_card-precio {
   background-color: rgb(37, 37, 247);
-  color: rgba(255, 255, 255, 0.905);
+  color: rgb(0, 0, 0);
 }
 
 /* SECCION NUESTROS SERVICIOS */

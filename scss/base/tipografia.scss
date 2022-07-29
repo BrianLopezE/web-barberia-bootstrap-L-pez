@@ -1,10 +1,19 @@
 @font-face {
-    font-family:melody;
-    src: url(../../fuentes/melody.otf);
+    font-family:blaka;
+    src: url(../../fuentes/blaka.ttf);
 }
 
-*{
-    font-family:melody;
+@font-face {
+    font-family: fredericka;
+    src: url(../../fuentes/Fredericka.ttf);
+}
+
+.nav{
+    font-family:blaka;
+}
+
+main, footer, .hero{
+    font-family:fredericka ;
 }
 
 

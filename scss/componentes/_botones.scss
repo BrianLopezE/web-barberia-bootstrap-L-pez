@@ -7,7 +7,7 @@
     transition: ease-in-out 0.5s;
     &.hero_boton:hover{
         background-color:map-get($paleta, "secundario");
-        color:map-get($paleta, "secundario");
+        color:map-get($paleta, "c-negro");
         cursor: pointer;
 
     }
@@ -48,7 +48,7 @@
     transition: 0.5s;
     &:hover{
         background-color:map-get($paleta, "secundario");
-        color: map-get($paleta, "c-azul");
+        color: map-get($paleta, "c-negro");
     }
 }
 
@@ -67,6 +67,12 @@
         background-color: map-get($paleta, "secundario");
         color: map-get($paleta, "c-azul" );
         transition: ease-in-out 0.3s;
+    }
+
+    &-iniciod{
+        @extend .boton;
+        position: relative;
+        left: calc(50% - 75px)
     }
 }
 
