@@ -183,7 +183,7 @@ body {
 .main-sde .sde_img {
   position: relative;
   width: 100%;
-  height: 55vh;
+  height: 58vh;
 }
 .main-sde .sde_article {
   width: 100vw;
@@ -195,6 +195,12 @@ body {
   border: dashed 2px rgba(255, 255, 255, 0.905);
   overflow-y: scroll;
   color: rgba(255, 255, 255, 0.905);
+}
+
+.sde_titulo {
+  border: dashed 2px rgba(255, 255, 255, 0.905);
+  color: rgb(255, 255, 255);
+  width: fit-content;
 }
 
 @media only screen and (min-width: 600px) {
@@ -225,10 +231,19 @@ body {
 .main-diseños {
   background-color: rgba(0, 0, 0, 0.9);
   font-family: "Fredericka the Great", cursive;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  height: 80%;
+  margin-top: 1%;
+  margin-bottom: 1%;
   overflow-y: scroll;
   overflow-x: hidden;
+}
+
+.titulo-diseños {
+  border: dashed 2px rgba(255, 255, 255, 0.905);
+  color: rgb(255, 255, 255);
+  width: fit-content;
+  position: relative;
+  left: calc(50% - 112.5px);
 }
 
 .contenedor_img {
@@ -297,7 +312,7 @@ body {
 }
 .carrousel {
   width: 100%;
-  height: 55%;
+  height: 65%;
   transition: transform 0.3s ease-in-out;
 }
 .carrousel:hover {
@@ -334,7 +349,7 @@ body {
 }
 .card-precio {
   background-color: rgb(37, 37, 247);
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 /* SECCION AGENDA WEB */

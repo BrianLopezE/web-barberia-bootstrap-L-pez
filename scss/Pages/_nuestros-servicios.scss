@@ -1,7 +1,5 @@
                                 /* SECCION NUESTROS SERVICIOS */
 
-
-
 .main-servicios{
 
             background-color:map-get($paleta, "principal");
@@ -28,7 +26,7 @@
     
     &-precio{
         background-color: map-get($paleta, "c-azul" );
-        color: map-get($paleta, "c-negro");
+        color: map-get($paleta, "c-blanco");
     }
 }
     

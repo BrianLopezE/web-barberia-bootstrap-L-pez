@@ -4,11 +4,21 @@
     background-color:map-get($paleta, "principal");
     font-family: 'Fredericka the Great', cursive;
 
-    margin-top: 2%;
-    margin-bottom: 2%;
+    height: 80%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 
     overflow-y: scroll;
     overflow-x: hidden;
+}
+
+.titulo-diseños{
+    border: $b-dashed;
+    color: map-get($paleta, c-blanco);
+    width: fit-content;
+
+    position: relative;
+    left: calc(50% - 112.5px);
 }
 
 .contenedor_img{
@@ -87,7 +97,7 @@
 
 .carrousel{
         width: 100%;
-        height: 55%;
+        height: 65%;
         transition: transform 0.3s ease-in-out;
 
         &:hover {
