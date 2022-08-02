@@ -1,20 +1,14 @@
-                       /* SECCION INICIO */
-.main{
-    height: 70vh;
-    font-family: 'Fredericka the Great', cursive;
+/* SECCION INICIO */
+.main {
+  height: 70vh;
+  font-family: "Fredericka the Great", cursive;
 
-    .agenda{
-    background-color:map-get($paleta, "principal");
+  .agenda {
+    background-color: map-get($paleta, "principal");
     height: 100vh;
-    & h3{
-    color:map-get($paleta, "secundario");
-    display: inline-block;
+    & h3 {
+      color: map-get($paleta, "secundario");
+      display: inline-block;
     }
+  }
 }
-}
-
-
-
-
-
-  

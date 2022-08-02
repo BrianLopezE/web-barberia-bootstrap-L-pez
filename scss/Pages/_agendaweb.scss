@@ -1,46 +1,25 @@
-                                    /* SECCION AGENDA WEB */
+/* SECCION AGENDA WEB */
 
-.main_agenda{
-    background-color:map-get($paleta, "principal");
-    font-family: 'Fredericka the Great', cursive;
-    height: 61vh;
-    margin-top: 2%;
-    margin-bottom: 2%;
-
+.main_agenda {
+  background-color: map-get($paleta, "principal");
+  font-family: "Fredericka the Great", cursive;
+  height: 61vh;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
-.article_titulo{
-    border:$b-dashed;
-    width:fit-content ;
-    height: fit-content;
-    align-self: center;
+.article_titulo {
+  border: $b-dashed;
+  width: fit-content;
+  height: fit-content;
+  align-self: center;
 
-    & h3{
-    color:map-get($paleta, "secundario");
-    font-size: 1.5rem;   
-    }
+  & h3 {
+    color: map-get($paleta, "secundario");
+    font-size: 1.5rem;
+  }
 
-    &_agenda{
-
-    width: fit-content;  
-    }  
+  &_agenda {
+    width: fit-content;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                    

@@ -1,35 +1,28 @@
-                                /* SECCION NUESTROS SERVICIOS */
+/* SECCION NUESTROS SERVICIOS */
 
-.main-servicios{
-
-            background-color:map-get($paleta, "principal");
-            font-family: 'Fredericka the Great', cursive;
-            height: 60vh;
-            overflow-y: scroll;
-          
+.main-servicios {
+  background-color: map-get($paleta, "principal");
+  font-family: "Fredericka the Great", cursive;
+  height: 60vh;
+  overflow-y: scroll;
 }
 
-.titulo-servicios{
-   border: $b-dashed;
-   color: map-get($paleta, "secundario");
-   
+.titulo-servicios {
+  border: $b-dashed;
+  color: map-get($paleta, "secundario");
 }
 
-.card{
-    @extend .molde_card;
+.card {
+  @extend .molde_card;
 
-    &:hover{
+  &:hover {
     transition: 1.2s;
     transform: rotateX(360deg);
     cursor: pointer;
-    }
-    
-    &-precio{
-        background-color: map-get($paleta, "c-azul" );
-        color: map-get($paleta, "c-blanco");
-    }
+  }
+
+  &-precio {
+    background-color: map-get($paleta, "c-azul");
+    color: map-get($paleta, "c-blanco");
+  }
 }
-    
-
-
-

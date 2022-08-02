@@ -1,18 +1,14 @@
-                // COLORES
+// COLORES
 
 $paleta: (
-    principal:rgba(0, 0, 0, 0.9),
-    secundario:rgba(255, 255, 255, 0.905),
-    c-azul:rgb(37, 37, 247),
-    c-negro: rgb(0, 0, 0),
-    c-blanco: rgb(255, 255, 255)
+  principal: rgba(0, 0, 0, 0.9),
+  secundario: rgba(255, 255, 255, 0.905),
+  c-azul: rgb(37, 37, 247),
+  c-negro: rgb(0, 0, 0),
+  c-blanco: rgb(255, 255, 255),
 );
 
-                // BORDE
+// BORDE
 
 $b-dashed: dashed 2px rgba(255, 255, 255, 0.905);
 $b-solid: solid 1px rgba(255, 255, 255, 0.905);
-
-
-
-

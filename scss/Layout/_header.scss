@@ -1,22 +1,19 @@
-                            /* HEADER */
+/* HEADER */
 
 .nav {
-    background-color:map-get($paleta, "principal");
-    font-family: 'Blaka Hollow', cursive;
-    border-bottom: $b-dashed;
-    &_icon{
-        background-color:map-get($paleta, "secundario");
-    }
-    & div a {
-    color:map-get($paleta, "secundario");
-}
-    &_iconMenu{
-         background-color:map-get($paleta, "secundario");
-
-    }
+  background-color: map-get($paleta, "principal");
+  font-family: "Blaka Hollow", cursive;
+  border-bottom: $b-dashed;
+  &_icon {
+    background-color: map-get($paleta, "secundario");
+  }
+  & div a {
+    color: map-get($paleta, "secundario");
+  }
+  &_iconMenu {
+    background-color: map-get($paleta, "secundario");
+  }
 }
 .desplegable {
-     background-color:map-get($paleta, "principal");
+  background-color: map-get($paleta, "principal");
 }
-
-

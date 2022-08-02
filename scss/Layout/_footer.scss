@@ -1,52 +1,46 @@
-                                /* FOOTER */
+/* FOOTER */
 
-.footer{
-  background-color:map-get($paleta, "principal");
-  font-family: 'Fredericka the Great', cursive;
+.footer {
+  background-color: map-get($paleta, "principal");
+  font-family: "Fredericka the Great", cursive;
   font-size: 10px;
   align-self: end;
   width: 100%;
   height: 50%;
 
-
-  &_btn{
-    background-color: map-get($paleta, "c-azul" );
+  &_btn {
+    background-color: map-get($paleta, "c-azul");
     border: $b-solid;
     color: map-get($paleta, "secundario");
   }
 
-  &_btn:active{
+  &_btn:active {
     background-color: map-get($paleta, "secundario");
     color: map-get($paleta, "c-azul");
   }
 
-  &_btn:focus{
+  &_btn:focus {
     color: map-get($paleta, "secundario");
   }
 
-  &_list{
-    background-color:map-get($paleta, "secundario");
+  &_list {
+    background-color: map-get($paleta, "secundario");
   }
 
-  & li{
+  & li {
     color: map-get($paleta, "c-azul");
   }
 
-  
-  & li a{
+  & li a {
     color: map-get($paleta, "c-azul");
   }
 
-  &_map{
+  &_map {
     width: 100%;
   }
 
-  &_map:hover{
+  &_map:hover {
     transition: 1s ease-in;
-    transform:scaleY(1.3) ;  
+    transform: scaleY(1.3);
   }
 }
-
-
-
-
